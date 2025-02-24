@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import PageHeader from "../components/page-headers/PageHeader";
-import { Box, Paper } from "@mui/material";
+import { Box } from "@mui/material";
 import DropZone from "../components/dropzone/DropZone";
 import TextResultArea from "../components/reslutArea/TextResultArea";
 import { useTextExtractionMutation } from "../redux/convert/AllApi";
