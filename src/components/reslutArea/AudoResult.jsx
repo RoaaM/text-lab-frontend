@@ -29,7 +29,7 @@ function AudioResult({ data, loading }) {
         </Box>
       ) : data ? (
         <audio controls>
-          <source src={data?.audio} type="audio/ogg" />
+          <source src={data?.output} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       ) : (
